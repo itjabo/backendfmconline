@@ -1,0 +1,264 @@
+[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ c7xtermx -n WBRN2
+?
+
+
+MGW       WBRN2_U4                  2016-10-25  09:28:04
+
+       MAIN LEVEL             
+
+       ? ..... DISPLAY MENU             
+       A ..... ALARM SYSTEM ADMINISTRATION             
+       C ..... ROUTING STATE ADMINISTRATION             
+       D ..... SYSTEM SUPPORT AND COMMUNICATION             
+       I ..... I/O SYSTEM ADMINISTRATION             
+       J ..... IP TELEPHONY  ADMINISTRATION             
+       L ..... BROADBAND ADMINISTRATION             
+       N ..... SS7 NETWORK ADMINISTRATION             
+       O ..... SUPPLEMENTARY SS7 NETWORK ADMINISTRATION             
+       Q ..... O&M NETWORK ADMINISTRATION             
+       R ..... ROUTING ADMINISTRATION             
+       T ..... TRAFFIC ADMINISTRATION             
+       U ..... UNIT ADMINISTRATION             
+       W ..... SYSTEM CONFIGURATION ADMINISTRATION             
+       Y ..... SYSTEM SUPERVISION             
+       Z; .... END DIALOGUE/DESTINATION SELECTION (:)             
+
+
+MAIN LEVEL COMMAND <___>
+ZAHP;
+
+
+LOADING PROGRAM VERSION 5.26-0
+
+MGW       WBRN2_U4                  2016-10-25  09:28:09
+
+ALARM HISTORY
+
+
+HST (08956) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-25 03:00:57.98
+    NOTICE  OMU-0                                                               
+    0027    SOFTWARE PACKAGE FALLBACK COPYING NOTICE                        
+    SW5ADM  OMU-0                          NMS             
+    STARTED 
+
+HST (08957) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-25 03:00:58.00
+    NOTICE  OMU-0                                                               
+    0033    FILE UPDATES TO DISK PREVENTED                                  
+    FEDSER  OMU-0                                          
+
+HST (08958) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-25 03:04:38.95
+    NOTICE  OMU-0                                                               
+    0036    FILE UPDATES TO DISK RESUMED                                    
+    FEDSER  OMU-0                                          
+
+HST (08959) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-25 03:05:41.92
+    NOTICE  OMU-0                                                               
+    0027    SOFTWARE PACKAGE FALLBACK COPYING NOTICE                        
+    SW5ADM  OMU-0                          NMS             
+    READY 
+
+HST (08960) WBRN2_U4                         COMM         2016-10-25 04:42:56.36
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (08961) WBRN2_U4                         COMM         2016-10-25 04:42:56.35
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (08962) WBRN2_U4         1A001-00-12     PROCES       2016-10-25 04:42:56.36
+*   ALARM   ISU-14                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-14                                         
+    07 02 0007 0000 
+
+HST (08960) WBRN2_U4                         COMM         2016-10-25 04:42:56.36
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (08963) WBRN2_U4                         COMM         2016-10-25 04:42:56.36
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (08964) WBRN2_U4         1A001-00-3      COMM         2016-10-25 04:42:56.72
+*   ALARM   ISU-11                                                              
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0007 0000 0989 
+
+HST (08965) WBRN2_U4         1B003-00-16     COMM         2016-10-25 04:42:56.72
+*   ALARM   ISU-5                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0005 0000 098A 
+
+HST (08966) WBRN2_U4         1A001-00-3      PROCES       2016-10-25 04:42:57.31
+*   ALARM   ISU-11                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-11                                         
+    07 02 0005 0000 
+
+HST (08961) WBRN2_U4                         COMM         2016-10-25 04:42:57.31
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (08963) WBRN2_U4                         COMM         2016-10-25 04:42:57.47
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (08966) WBRN2_U4         1A001-00-3      PROCES       2016-10-25 04:42:57.94
+.   CANCEL  ISU-11                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-11                                         
+    07 02 0005 0000 
+
+HST (08962) WBRN2_U4         1A001-00-12     PROCES       2016-10-25 04:42:57.99
+.   CANCEL  ISU-14                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-14                                         
+    07 02 0007 0000 
+
+HST (08965) WBRN2_U4         1B003-00-16     COMM         2016-10-25 04:43:01.73
+.   CANCEL  ISU-5                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0005 0000 098A 
+
+HST (08964) WBRN2_U4         1A001-00-3      COMM         2016-10-25 04:43:01.84
+.   CANCEL  ISU-11                                                              
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0007 0000 0989 
+
+HST (08967) WBRN2_U4                         COMM         2016-10-25 04:45:41.47
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (08968) WBRN2_U4         1A001-00-3      PROCES       2016-10-25 04:45:41.47
+*   ALARM   ISU-11                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-11                                         
+    07 02 0005 0000 
+
+HST (08969) WBRN2_U4                         COMM         2016-10-25 04:45:41.49
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (08967) WBRN2_U4                         COMM         2016-10-25 04:45:41.47
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (08970) WBRN2_U4                         COMM         2016-10-25 04:45:41.47
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (08971) WBRN2_U4         1A001-00-3      COMM         2016-10-25 04:45:41.81
+*   ALARM   ISU-11                                                              
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0007 0000 098B 
+
+HST (08972) WBRN2_U4         1B003-00-16     COMM         2016-10-25 04:45:41.81
+*   ALARM   ISU-5                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0005 0000 098C 
+
+HST (08973) WBRN2_U4         1A001-00-12     PROCES       2016-10-25 04:45:42.45
+*   ALARM   ISU-14                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-14                                         
+    07 02 0007 0000 
+
+HST (08969) WBRN2_U4                         COMM         2016-10-25 04:45:42.45
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (08970) WBRN2_U4                         COMM         2016-10-25 04:45:42.58
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (08968) WBRN2_U4         1A001-00-3      PROCES       2016-10-25 04:45:43.17
+.   CANCEL  ISU-11                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-11                                         
+    07 02 0005 0000 
+
+HST (08973) WBRN2_U4         1A001-00-12     PROCES       2016-10-25 04:45:44.84
+.   CANCEL  ISU-14                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-14                                         
+    07 02 0007 0000 
+
+HST (08971) WBRN2_U4         1A001-00-3      COMM         2016-10-25 04:45:46.82
+.   CANCEL  ISU-11                                                              
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0007 0000 098B 
+
+HST (08972) WBRN2_U4         1B003-00-16     COMM         2016-10-25 04:45:46.94
+.   CANCEL  ISU-5                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0005 0000 098C 
+
+HST (08974) WBRN2_U4         1A002-00-8      PROCES       2016-10-25 08:21:29.53
+*   ALARM   ISU-13                                                              
+    3379    SCTP PATH FAILURE                                               
+    S3CMAN  CM-1                                           
+    03 01 001B 0001 
+
+HST (08975) WBRN2_U4         1A001-00-8      PROCES       2016-10-25 08:21:29.79
+*   ALARM   ISU-12                                                              
+    3379    SCTP PATH FAILURE                                               
+    S3CMAN  CM-1                                           
+    03 02 001B 0000 
+
+HST (08975) WBRN2_U4         1A001-00-8      PROCES       2016-10-25 08:21:30.86
+.   CANCEL  ISU-12                                                              
+    3379    SCTP PATH FAILURE                                               
+    S3CMAN  CM-1                                           
+    03 02 001B 0000 
+
+HST (08974) WBRN2_U4         1A002-00-8      PROCES       2016-10-25 08:21:34.31
+.   CANCEL  ISU-13                                                              
+    3379    SCTP PATH FAILURE                                               
+    S3CMAN  CM-1                                           
+    03 01 001B 0001 
+
+NUMBER OF ALARM EVENTS DISPLAYED:
+
+  *** ALARM  = 6     ; ... ALARM = 6     
+    * ALARM  = 10    ;   . ALARM = 10    
+     NOTICE  = 4     
+
+TOTAL:  SET  = 20    ;  CANCELED = 16    
+
+COMMAND EXECUTED
+
+
+ALARM HISTORY HANDLING COMMAND <AH_>

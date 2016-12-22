@@ -1,0 +1,1922 @@
+﻿
+You are about to access a private system. This system is for use of
+authorized users only. All connections are logged. Any unauthorized
+access or access attempts are punishable to the fullest extend of 
+local legislation.
+
+
+c7xtermx -n WBRN2
+[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ c7xtermx -n WBRN2
+?
+
+
+MGW       WBRN2_U4                  2016-10-26  08:01:45
+
+       MAIN LEVEL             
+
+       ? ..... DISPLAY MENU             
+       A ..... ALARM SYSTEM ADMINISTRATION             
+       C ..... ROUTING STATE ADMINISTRATION             
+       D ..... SYSTEM SUPPORT AND COMMUNICATION             
+       I ..... I/O SYSTEM ADMINISTRATION             
+       J ..... IP TELEPHONY  ADMINISTRATION             
+       L ..... BROADBAND ADMINISTRATION             
+       N ..... SS7 NETWORK ADMINISTRATION             
+       O ..... SUPPLEMENTARY SS7 NETWORK ADMINISTRATION             
+       Q ..... O&M NETWORK ADMINISTRATION             
+       R ..... ROUTING ADMINISTRATION             
+       T ..... TRAFFIC ADMINISTRATION             
+       U ..... UNIT ADMINISTRATION             
+       W ..... SYSTEM CONFIGURATION ADMINISTRATION             
+       Y ..... SYSTEM SUPERVISION             
+       Z; .... END DIALOGUE/DESTINATION SELECTION (:)             
+
+
+MAIN LEVEL COMMAND <___>
+
+/*** EXCESSIVE INPUT DELAY ***/
+
+END OF DIALOGUE SESSION
+
+Connection closed by foreign host.
+
+[Connection is closed by NE]
+Press Enter to continue.
+
+[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ ZAHP;
+-bash: ZAHP: command not found
+[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ c7xtermx -n WBRN2
+?
+
+
+MGW       WBRN2_U4                  2016-10-26  08:33:06
+
+       MAIN LEVEL             
+
+       ? ..... DISPLAY MENU             
+       A ..... ALARM SYSTEM ADMINISTRATION             
+       C ..... ROUTING STATE ADMINISTRATION             
+       D ..... SYSTEM SUPPORT AND COMMUNICATION             
+       I ..... I/O SYSTEM ADMINISTRATION             
+       J ..... IP TELEPHONY  ADMINISTRATION             
+       L ..... BROADBAND ADMINISTRATION             
+       N ..... SS7 NETWORK ADMINISTRATION             
+       O ..... SUPPLEMENTARY SS7 NETWORK ADMINISTRATION             
+       Q ..... O&M NETWORK ADMINISTRATION             
+       R ..... ROUTING ADMINISTRATION             
+       T ..... TRAFFIC ADMINISTRATION             
+       U ..... UNIT ADMINISTRATION             
+       W ..... SYSTEM CONFIGURATION ADMINISTRATION             
+       Y ..... SYSTEM SUPERVISION             
+       Z; .... END DIALOGUE/DESTINATION SELECTION (:)             
+
+
+MAIN LEVEL COMMAND <___>
+< ZAHP;
+
+
+LOADING PROGRAM VERSION 5.26-0
+
+MGW       WBRN2_U4                  2016-10-26  08:33:24
+
+ALARM HISTORY
+
+
+
+/*** PLEASE WAIT, RETRIEVING ALARM HISTORY! ***/
+
+
+
+HST (08993) WBRN2_U4         1B002-00-16     COMM         2016-10-26 00:34:35.17
+*   ALARM   ISU-4                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0004 0000 098E 
+
+HST (08994) WBRN2_U4         1B004-00-16     COMM         2016-10-26 00:34:35.17
+*   ALARM   ISU-6                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0006 0000 098F 
+
+HST (08995) WBRN2_U4                         COMM         2016-10-26 00:34:35.17
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-13                                         
+    00000006 00 00 0d 
+
+HST (08996) WBRN2_U4         1A001-00-3      COMM         2016-10-26 00:34:35.20
+*   ALARM   ISU-11                                                              
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0007 0000 0990 
+
+HST (08997) WBRN2_U4         1B003-00-16     COMM         2016-10-26 00:34:35.20
+*   ALARM   ISU-5                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0005 0000 0991 
+
+HST (08998) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.20
+*** ALARM   NONE                                                                
+    2070    LINK SET UNAVAILABLE                                            
+    CCNETM  CM-1                                           
+    001C 01 00000652 08 
+
+HST (08999) WBRN2_U4                         COMM         2016-10-26 00:34:35.20
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (09000) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.20
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-14                                         
+    07 80 00000652 1E0005FE 00 12 7C 38 08 00 
+
+HST (09001) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.20
+*   ALARM   NONE                                                                
+    2064    ROUTE SET UNAVAILABLE                                           
+    CCDESM  CM-1                                           
+    00000652 08 04 
+
+HST (09002) WBRN2_U4                         COMM         2016-10-26 00:34:35.19
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (09003) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.21
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-4                                          
+    00 80 00000652 1F0005F2 00 12 E7 AF 67 00 
+
+HST (09004) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.20
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-6                                          
+    00 80 00000652 24000659 00 12 00 06 52 07 
+
+HST (09005) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.21
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-3                                          
+    00 83 00000652 000004A9 60 06 CC 02 07 00 
+
+HST (09006) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.21
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-5                                          
+    00 83 00000652 24000659 00 06 CC 9B 01 00 
+
+HST (09007) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.22
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-8                                          
+    00 83 00000652 000004A9 62 01 6D BA 06 02 
+
+HST (09008) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.22
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-9                                          
+    00 83 00000652 000004A9 9F 06 08 15 06 00 
+
+HST (09009) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.22
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-10                                         
+    07 83 00000652 1E0005FE 0C 01 7B 20 07 02 
+
+HST (09010) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.22
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-2                                          
+    00 83 00000652 000004A9 79 06 3D 8B 04 00 
+
+HST (09011) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.22
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-16                                         
+    00 83 00000652 000004A9 10 06 02 C8 03 00 
+
+HST (09012) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.22
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-15                                         
+    00 83 00000652 000004A9 3F 06 6A 58 02 00 
+
+HST (09013) WBRN2_U4                         COMM         2016-10-26 00:34:35.23
+*** ALARM   NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-6                                          
+    00000004 00 00 0d 
+
+HST (09014) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.24
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-6                                          
+    00 83 00000652 000004A9 D8 06 CE 8D 05 00 
+
+HST (09015) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.24
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-4                                          
+    00 83 00000652 000004A9 9B 06 22 C1 04 00 
+
+HST (09016) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.24
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-5                                          
+    00 83 00000652 000004A9 D7 01 C9 46 07 02 
+
+HST (09017) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.28
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-14                                         
+    00 83 00000652 000004A9 F4 06 59 51 09 00 
+
+HST (09018) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.29
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-13                                         
+    00 83 00000652 000004A9 95 06 5E CD 09 00 
+
+HST (09019) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.30
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-1                                          
+    00 83 00000652 000004A9 21 06 27 90 00 00 
+
+HST (09020) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.33
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-12                                         
+    00 83 00000652 000004A9 D3 06 2B 98 02 00 
+
+HST (09021) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.36
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-11                                         
+    00 83 00000652 000004A9 8F 06 CC 90 08 00 
+
+HST (09022) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.37
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-0                                          
+    00 83 00000652 000004A9 76 06 A2 10 0A 00 
+
+HST (09023) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.42
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-7                                          
+    00 83 00000652 000004A9 DC 06 51 01 0A 00 
+
+HST (09024) WBRN2_U4                         EQUIPM       2016-10-26 00:34:35.68
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-10                                         
+    00 83 00000652 000004A9 4A 01 F3 0C 05 02 
+
+HST (09025) WBRN2_U4                         EQUIPM       2016-10-26 00:34:37.21
+*** ALARM   NONE                                                                
+    2241    SCCP SUBSYSTEM PROHIBITED                                       
+    SMNPRO  CM-1                                           
+    01 08 00000652 01 
+
+HST (09026) WBRN2_U4                         EQUIPM       2016-10-26 00:34:37.21
+*** ALARM   NONE                                                                
+    2241    SCCP SUBSYSTEM PROHIBITED                                       
+    SMNPRO  CM-1                                           
+    FE 08 00000652 01 
+
+HST (09027) WBRN2_U4                         EQUIPM       2016-10-26 00:34:37.21
+*** ALARM   NONE                                                                
+    2241    SCCP SUBSYSTEM PROHIBITED                                       
+    SMNPRO  CM-1                                           
+    8E 08 00000652 01 
+
+HST (09028) WBRN2_U4         1B004-00-16     EQUIPM       2016-10-26 00:34:37.28
+    DISTUR  ISU-6                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-6                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09029) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:34:37.48
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09030) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:34:37.51
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09031) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:34:37.53
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09032) WBRN2_U4         1A002-00-12     EQUIPM       2016-10-26 00:34:37.53
+    DISTUR  ISU-15                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-15                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09033) WBRN2_U4         1A001-00-3      EQUIPM       2016-10-26 00:34:37.67
+    DISTUR  ISU-11                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-11                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09034) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:34:37.70
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09035) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:34:37.86
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09036) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:34:37.91
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09037) WBRN2_U4         1B004-00-16     EQUIPM       2016-10-26 00:34:37.91
+    DISTUR  ISU-6                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-6                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09038) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:34:38.13
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09039) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:34:38.33
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09040) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:34:38.60
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09041) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:34:38.71
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09042) WBRN2_U4         1A002-00-3      EQUIPM       2016-10-26 00:34:38.89
+    DISTUR  ISU-0                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-0                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09043) WBRN2_U4         1A001-00-12     EQUIPM       2016-10-26 00:34:39.58
+    DISTUR  ISU-14                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-14                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09044) WBRN2_U4         1A001-00-3      EQUIPM       2016-10-26 00:34:40.14
+    DISTUR  ISU-11                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-11                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09045) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:34:40.37
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09046) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:34:40.54
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09047) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:34:40.91
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09048) WBRN2_U4         1C004-00-16     EQUIPM       2016-10-26 00:34:41.29
+    DISTUR  ISU-10                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-10                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09049) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:34:44.40
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09050) WBRN2_U4         1A002-00-12     EQUIPM       2016-10-26 00:34:45.33
+    DISTUR  ISU-15                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-15                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09051) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:34:46.71
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09052) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:34:47.58
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09053) WBRN2_U4                         EQUIPM       2016-10-26 00:34:50.33
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-15                                         
+    00 83 00000652 000004A9 B6 10 04 15 07 DC 
+
+HST (09054) WBRN2_U4                         EQUIPM       2016-10-26 00:34:50.46
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-12                                         
+    00 83 00000652 000004A9 92 10 C0 84 01 AD 
+
+HST (09055) WBRN2_U4                         EQUIPM       2016-10-26 00:34:50.49
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-5                                          
+    00 83 00000652 000004A9 15 10 71 9D 00 CB 
+
+HST (09056) WBRN2_U4                         EQUIPM       2016-10-26 00:34:50.54
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-4                                          
+    00 83 00000652 000004A9 F5 10 0A 10 09 2F 
+
+HST (09057) WBRN2_U4                         EQUIPM       2016-10-26 00:34:50.89
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-2                                          
+    00 83 00000652 000004A9 1F 10 DA DA 08 BB 
+
+HST (09058) WBRN2_U4                         EQUIPM       2016-10-26 00:34:51.19
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-7                                          
+    00 83 00000652 000004A9 D4 10 F0 10 05 DF 
+
+HST (09059) WBRN2_U4                         EQUIPM       2016-10-26 00:34:51.36
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-10                                         
+    00 83 00000652 000004A9 36 10 13 56 09 BA 
+
+HST (09060) WBRN2_U4                         EQUIPM       2016-10-26 00:34:51.89
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-1                                          
+    00 83 00000652 000004A9 87 10 CB DC 0A ED 
+
+HST (09061) WBRN2_U4                         EQUIPM       2016-10-26 00:34:52.48
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-14                                         
+    00 83 00000652 000004A9 C8 10 57 5E 05 39 
+
+HST (09062) WBRN2_U4                         EQUIPM       2016-10-26 00:34:53.55
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-9                                          
+    00 83 00000652 000004A9 E2 10 DD 8C 07 B9 
+
+HST (09063) WBRN2_U4                         EQUIPM       2016-10-26 00:34:54.68
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-0                                          
+    00 83 00000652 000004A9 02 10 A5 4D 07 A0 
+
+HST (09064) WBRN2_U4                         EQUIPM       2016-10-26 00:34:54.69
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-11                                         
+    00 83 00000652 000004A9 19 10 F4 12 02 CC 
+
+HST (09065) WBRN2_U4                         EQUIPM       2016-10-26 00:34:54.91
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-6                                          
+    00 83 00000652 000004A9 71 10 CF 58 05 19 
+
+HST (09066) WBRN2_U4         1A002-00-8      COMM         2016-10-26 00:34:55.19
+**  ALARM   ISU-13                                                              
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-13                                         
+    00000006 
+
+HST (09067) WBRN2_U4         1A001-00-3      COMM         2016-10-26 00:34:55.20
+**  ALARM   ISU-11                                                              
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-11                                         
+    00000005 
+
+HST (09068) WBRN2_U4         1A001-00-12     COMM         2016-10-26 00:34:55.22
+**  ALARM   ISU-14                                                              
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-14                                         
+    00000007 
+
+HST (09069) WBRN2_U4         1B004-00-16     COMM         2016-10-26 00:34:55.24
+**  ALARM   ISU-6                                                               
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-6                                          
+    00000004 
+
+HST (09070) WBRN2_U4         1A002-00-3      EQUIPM       2016-10-26 00:34:56.41
+    DISTUR  ISU-0                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-0                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09071) WBRN2_U4                         EQUIPM       2016-10-26 00:34:56.73
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-8                                          
+    00 83 00000652 000004A9 19 10 56 8E 07 CF 
+
+HST (09072) WBRN2_U4                         EQUIPM       2016-10-26 00:35:00.42
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-16                                         
+    00 83 00000652 000004A9 40 10 57 D2 03 D7 
+
+HST (09073) WBRN2_U4                         EQUIPM       2016-10-26 00:35:01.13
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-13                                         
+    00 83 00000652 000004A9 51 10 FD D5 00 68 
+
+HST (09074) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:35:02.83
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09075) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:35:04.93
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09076) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:35:05.34
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09077) WBRN2_U4                         EQUIPM       2016-10-26 00:35:05.68
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-5                                          
+    00 83 00000652 000004A9 36 01 FE 2B 07 02 
+
+HST (09078) WBRN2_U4         1C004-00-16     EQUIPM       2016-10-26 00:35:06.02
+    DISTUR  ISU-10                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-10                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09079) WBRN2_U4                         EQUIPM       2016-10-26 00:35:06.07
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-12                                         
+    00 83 00000652 000004A9 6A 10 E7 14 04 49 
+
+HST (09080) WBRN2_U4                         EQUIPM       2016-10-26 00:35:06.50
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-7                                          
+    00 83 00000652 000004A9 1A 10 55 93 0A 96 
+
+HST (09081) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:35:06.53
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09082) WBRN2_U4                         EQUIPM       2016-10-26 00:35:06.57
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-4                                          
+    00 83 00000652 000004A9 C1 10 A0 11 04 30 
+
+HST (09083) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:35:06.79
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09084) WBRN2_U4                         EQUIPM       2016-10-26 00:35:07.73
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-3                                          
+    00 83 00000652 000004A9 39 10 50 11 02 48 
+
+HST (09085) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:35:08.50
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09086) WBRN2_U4                         EQUIPM       2016-10-26 00:35:08.83
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-15                                         
+    00 83 00000652 000004A9 09 10 4F DA 06 68 
+
+HST (09087) WBRN2_U4                         EQUIPM       2016-10-26 00:35:09.21
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-1                                          
+    00 83 00000652 000004A9 D0 10 2D 09 08 D9 
+
+HST (09088) WBRN2_U4                         EQUIPM       2016-10-26 00:35:09.71
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-14                                         
+    00 83 00000652 000004A9 11 10 5D 1B 0A CD 
+
+HST (09089) WBRN2_U4                         EQUIPM       2016-10-26 00:35:10.43
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-10                                         
+    00 83 00000652 000004A9 0D 10 1F 8D 04 C2 
+
+HST (09090) WBRN2_U4         1A001-00-12     EQUIPM       2016-10-26 00:35:10.95
+    DISTUR  ISU-14                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-14                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09091) WBRN2_U4                         EQUIPM       2016-10-26 00:35:11.05
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-0                                          
+    00 83 00000652 000004A9 A4 10 00 1D 03 75 
+
+HST (09092) WBRN2_U4                         EQUIPM       2016-10-26 00:35:12.11
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-9                                          
+    00 83 00000652 000004A9 88 10 74 1F 07 4F 
+
+HST (09093) WBRN2_U4                         EQUIPM       2016-10-26 00:35:12.19
+*   ALARM   NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-11                                         
+    00 83 00000652 000004A9 C7 10 1E DE 09 54 
+
+HST (09094) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:35:12.97
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09095) WBRN2_U4         1C004-00-16     EQUIPM       2016-10-26 00:35:13.70
+    DISTUR  ISU-10                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-10                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09096) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:35:14.91
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09097) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:35:15.11
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09098) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:35:19.69
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09099) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:35:23.00
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09100) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:35:24.07
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09101) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:35:24.81
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09102) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:35:28.47
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09103) WBRN2_U4         1A002-00-12     EQUIPM       2016-10-26 00:35:28.91
+    DISTUR  ISU-15                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-15                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09104) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:35:30.88
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09105) WBRN2_U4         1A001-00-3      EQUIPM       2016-10-26 00:35:34.29
+    DISTUR  ISU-11                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-11                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09106) WBRN2_U4         1A002-00-3      EQUIPM       2016-10-26 00:35:39.02
+    DISTUR  ISU-0                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-0                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09107) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:35:41.51
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09108) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:35:43.12
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09109) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:35:43.50
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09110) WBRN2_U4         1C004-00-16     EQUIPM       2016-10-26 00:35:47.54
+    DISTUR  ISU-10                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-10                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09111) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:35:48.39
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09112) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:35:54.40
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09113) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:35:54.77
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09114) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:35:59.42
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09115) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:36:00.68
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09116) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:36:01.50
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09117) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:36:03.99
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09118) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:36:07.12
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09119) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:36:07.63
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09120) WBRN2_U4         1A001-00-12     EQUIPM       2016-10-26 00:36:07.69
+    DISTUR  ISU-14                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-14                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09121) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:36:13.13
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09122) WBRN2_U4         1B004-00-16     EQUIPM       2016-10-26 00:36:15.07
+    DISTUR  ISU-6                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-6                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09123) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:36:17.06
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09124) WBRN2_U4         1C004-00-16     EQUIPM       2016-10-26 00:36:17.72
+    DISTUR  ISU-10                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-10                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09125) WBRN2_U4         1A002-00-3      EQUIPM       2016-10-26 00:36:18.17
+    DISTUR  ISU-0                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-0                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09126) WBRN2_U4         1A002-00-12     EQUIPM       2016-10-26 00:36:20.25
+    DISTUR  ISU-15                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-15                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09127) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:36:21.80
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09128) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:36:22.36
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09129) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:36:31.45
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09130) WBRN2_U4         1A002-00-12     EQUIPM       2016-10-26 00:36:36.25
+    DISTUR  ISU-15                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-15                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09131) WBRN2_U4                         EQUIPM       2016-10-26 00:36:36.62
+**  ALARM   NONE                                                                
+    2072    FAILURE IN SIGNALLING LINK ACTIVATION OR RESTORATION            
+    CCNETM  CM-1                                           
+    0008 03 00 00 
+
+HST (09132) WBRN2_U4         1A001-00-3      EQUIPM       2016-10-26 00:36:37.03
+    DISTUR  ISU-11                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-11                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09133) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:36:39.19
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09134) WBRN2_U4         1B004-00-16     EQUIPM       2016-10-26 00:36:42.89
+    DISTUR  ISU-6                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-6                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09135) WBRN2_U4         1A002-00-3      EQUIPM       2016-10-26 00:36:44.94
+    DISTUR  ISU-0                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-0                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09136) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:36:45.05
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09137) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:36:49.98
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09138) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:37:04.64
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09139) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:37:06.77
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09140) WBRN2_U4         1A002-00-3      EQUIPM       2016-10-26 00:37:06.89
+    DISTUR  ISU-0                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-0                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09141) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:37:08.18
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09142) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:37:09.65
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09143) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:37:20.08
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09144) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:37:24.38
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09145) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:37:25.07
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09146) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:37:25.73
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09147) WBRN2_U4         1B004-00-16     EQUIPM       2016-10-26 00:37:28.72
+    DISTUR  ISU-6                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-6                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09148) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:37:32.01
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09149) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:37:50.32
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09150) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:37:50.57
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09151) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:37:52.07
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09152) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:37:58.17
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09153) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:38:08.20
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09154) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:38:14.18
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09155) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:38:25.33
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09156) WBRN2_U4         1A001-00-3      EQUIPM       2016-10-26 00:38:31.24
+    DISTUR  ISU-11                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-11                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09157) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:38:32.59
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09158) WBRN2_U4         1A002-00-3      EQUIPM       2016-10-26 00:38:35.51
+    DISTUR  ISU-0                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-0                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09159) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:39:16.43
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09160) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:39:34.65
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09161) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:39:39.46
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09162) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:39:59.59
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09163) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:40:08.46
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09164) WBRN2_U4         1A001-00-12     EQUIPM       2016-10-26 00:40:13.42
+    DISTUR  ISU-14                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-14                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09165) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:40:56.90
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09166) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:41:18.61
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09167) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:42:08.81
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09168) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:43:21.89
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    0B 08 000004A9 8E 00000652 8E 0000 
+
+HST (09169) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:43:27.19
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09170) WBRN2_U4         1B002-00-16     EQUIPM       2016-10-26 00:44:23.43
+    DISTUR  ISU-4                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-4                          NMS             
+    0B 08 000004A9 FE 00000652 FE 0000 
+
+HST (09171) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:44:37.49
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09172) WBRN2_U4         1B004-00-16     EQUIPM       2016-10-26 00:44:37.78
+    DISTUR  ISU-6                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-6                          NMS             
+    02 08 000004A9 8E 00000652 8E 0000 
+
+HST (09173) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:44:39.00
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09174) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:44:39.00
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09175) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:44:43.58
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    02 08 000004A9 8E 00000652 8E 0000 
+
+HST (09176) WBRN2_U4         1A001-00-12     EQUIPM       2016-10-26 00:44:44.99
+    DISTUR  ISU-14                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-14                         NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09177) WBRN2_U4         1A002-00-12     EQUIPM       2016-10-26 00:44:46.23
+    DISTUR  ISU-15                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-15                         NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09178) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:44:50.25
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09179) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:44:50.63
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09180) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:44:56.45
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09181) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:45:01.93
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09182) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:45:07.67
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09183) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:45:10.17
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09184) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:45:11.88
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09185) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:45:21.06
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09186) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:45:22.48
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09187) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:45:23.94
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    02 08 000004A9 8E 00000652 8E 0000 
+
+HST (09188) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:45:24.74
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09189) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:45:26.82
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09190) WBRN2_U4         1A001-00-3      EQUIPM       2016-10-26 00:45:30.03
+    DISTUR  ISU-11                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-11                         NMS             
+    02 08 000004A9 FE 00000652 FE 0000 
+
+HST (09191) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:45:31.79
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    02 08 000004A9 8E 00000652 8E 0000 
+
+HST (09192) WBRN2_U4         1C004-00-16     EQUIPM       2016-10-26 00:45:33.97
+    DISTUR  ISU-10                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-10                         NMS             
+    02 08 000004A9 8E 00000652 8E 0000 
+
+HST (09193) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:45:37.50
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09194) WBRN2_U4         1B004-00-16     EQUIPM       2016-10-26 00:45:37.79
+    DISTUR  ISU-6                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-6                          NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09195) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:45:39.01
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09196) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:45:39.01
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09197) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:45:43.59
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09198) WBRN2_U4         1A001-00-12     EQUIPM       2016-10-26 00:45:45.00
+    DISTUR  ISU-14                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-14                         NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09199) WBRN2_U4         1A002-00-12     EQUIPM       2016-10-26 00:45:46.24
+    DISTUR  ISU-15                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-15                         NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09200) WBRN2_U4         1C001-00-16     EQUIPM       2016-10-26 00:45:50.26
+    DISTUR  ISU-7                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-7                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09201) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:45:50.64
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09202) WBRN2_U4         1A001-00-8      EQUIPM       2016-10-26 00:45:56.46
+    DISTUR  ISU-12                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-12                         NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09203) WBRN2_U4         1C003-00-16     EQUIPM       2016-10-26 00:46:01.94
+    DISTUR  ISU-9                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-9                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09204) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:46:07.68
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09205) WBRN2_U4         1A002-00-8      EQUIPM       2016-10-26 00:46:10.18
+    DISTUR  ISU-13                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-13                         NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09206) WBRN2_U4         1A003-00-16     EQUIPM       2016-10-26 00:46:11.89
+    DISTUR  ISU-1                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-1                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09207) WBRN2_U4         1C002-00-16     EQUIPM       2016-10-26 00:46:21.07
+    DISTUR  ISU-8                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-8                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09208) WBRN2_U4         1A004-00-16     EQUIPM       2016-10-26 00:46:22.49
+    DISTUR  ISU-2                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-2                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09209) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:46:23.95
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09210) WBRN2_U4         1A001-00-18     EQUIPM       2016-10-26 00:46:24.75
+    DISTUR  ISU-16                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-16                         NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09211) WBRN2_U4         1B001-00-16     EQUIPM       2016-10-26 00:46:26.83
+    DISTUR  ISU-3                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-3                          NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09212) WBRN2_U4         1A001-00-3      EQUIPM       2016-10-26 00:46:30.04
+    DISTUR  ISU-11                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-11                         NMS             
+    01 08 000004A9 FE 00000652 FE 0000 
+
+HST (09213) WBRN2_U4         1B003-00-16     EQUIPM       2016-10-26 00:46:31.80
+    DISTUR  ISU-5                                                               
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-5                          NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09214) WBRN2_U4         1C004-00-16     EQUIPM       2016-10-26 00:46:33.98
+    DISTUR  ISU-10                                                              
+    1240    SCCP DISTURBANCE                                                
+    010FH   ISU-10                         NMS             
+    01 08 000004A9 8E 00000652 8E 0000 
+
+HST (09131) WBRN2_U4                         EQUIPM       2016-10-26 00:46:50.71
+..  CANCEL  NONE                                                                
+    2072    FAILURE IN SIGNALLING LINK ACTIVATION OR RESTORATION            
+    CCNETM  CM-1                                           
+    0008 03 00 00 
+
+HST (08994) WBRN2_U4         1B004-00-16     COMM         2016-10-26 00:46:50.71
+.   CANCEL  ISU-6                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0006 0000 098F 
+
+HST (08998) WBRN2_U4                         EQUIPM       2016-10-26 00:46:50.72
+... CANCEL  NONE                                                                
+    2070    LINK SET UNAVAILABLE                                            
+    CCNETM  CM-1                                           
+    001C 01 00000652 08 
+
+HST (08993) WBRN2_U4         1B002-00-16     COMM         2016-10-26 00:46:50.81
+.   CANCEL  ISU-4                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0004 0000 098E 
+
+HST (09215) WBRN2_U4                         EQUIPM       2016-10-26 00:46:52.34
+    NOTICE  NONE                                                                
+    0074    REPEATED CHANGEBACK DECLARATION NOT ACKNOWLEDGED                
+    CCNETM  CM-1                                           
+    001C 0008 
+
+HST (09001) WBRN2_U4                         EQUIPM       2016-10-26 00:46:52.72
+.   CANCEL  NONE                                                                
+    2064    ROUTE SET UNAVAILABLE                                           
+    CCDESM  CM-1                                           
+    00000652 08 04 
+
+HST (09025) WBRN2_U4                         EQUIPM       2016-10-26 00:46:52.72
+... CANCEL  NONE                                                                
+    2241    SCCP SUBSYSTEM PROHIBITED                                       
+    SMNPRO  CM-1                                           
+    01 08 00000652 01 
+
+HST (09026) WBRN2_U4                         EQUIPM       2016-10-26 00:47:02.73
+... CANCEL  NONE                                                                
+    2241    SCCP SUBSYSTEM PROHIBITED                                       
+    SMNPRO  CM-1                                           
+    FE 08 00000652 01 
+
+HST (09027) WBRN2_U4                         EQUIPM       2016-10-26 00:47:02.73
+... CANCEL  NONE                                                                
+    2241    SCCP SUBSYSTEM PROHIBITED                                       
+    SMNPRO  CM-1                                           
+    8E 08 00000652 01 
+
+HST (09216) WBRN2_U4         1A002-00-8      PROCES       2016-10-26 00:47:45.46
+*   ALARM   ISU-13                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-13                                         
+    07 02 0006 0000 
+
+HST (08995) WBRN2_U4                         COMM         2016-10-26 00:47:45.46
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-13                                         
+    00000006 00 00 0d 
+
+HST (09066) WBRN2_U4         1A002-00-8      COMM         2016-10-26 00:47:45.55
+..  CANCEL  ISU-13                                                              
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-13                                         
+    00000006 
+
+HST (09217) WBRN2_U4         1B004-00-16     PROCES       2016-10-26 00:47:45.55
+*   ALARM   ISU-6                                                               
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-6                                          
+    07 02 0004 0000 
+
+HST (09013) WBRN2_U4                         COMM         2016-10-26 00:47:45.55
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-6                                          
+    00000004 00 00 0d 
+
+HST (09069) WBRN2_U4         1B004-00-16     COMM         2016-10-26 00:47:45.62
+..  CANCEL  ISU-6                                                               
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-6                                          
+    00000004 
+
+HST (09217) WBRN2_U4         1B004-00-16     PROCES       2016-10-26 00:47:46.07
+.   CANCEL  ISU-6                                                               
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-6                                          
+    07 02 0004 0000 
+
+HST (09216) WBRN2_U4         1A002-00-8      PROCES       2016-10-26 00:47:46.20
+.   CANCEL  ISU-13                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-13                                         
+    07 02 0006 0000 
+
+HST (08996) WBRN2_U4         1A001-00-3      COMM         2016-10-26 00:48:16.49
+.   CANCEL  ISU-11                                                              
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0007 0000 0990 
+
+HST (08997) WBRN2_U4         1B003-00-16     COMM         2016-10-26 00:48:16.61
+.   CANCEL  ISU-5                                                               
+    3159    SCTP ASSOCIATION LOST                                           
+    S3CMAN  CM-1                                           
+    03 0008 0005 0000 0991 
+
+HST (09218) WBRN2_U4         1A001-00-12     PROCES       2016-10-26 00:48:55.50
+*   ALARM   ISU-14                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-14                                         
+    07 02 0007 0000 
+
+HST (08999) WBRN2_U4                         COMM         2016-10-26 00:48:55.50
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-14                                         
+    00000007 00 00 0d 
+
+HST (09219) WBRN2_U4         1A001-00-3      PROCES       2016-10-26 00:48:55.49
+*   ALARM   ISU-11                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-11                                         
+    07 02 0005 0000 
+
+HST (09002) WBRN2_U4                         COMM         2016-10-26 00:48:55.49
+... CANCEL  NONE                                                                
+    3937    H.248 IP CONNECTION LOST                                        
+    HTAPRB  ISU-11                                         
+    00000005 00 00 0d 
+
+HST (09068) WBRN2_U4         1A001-00-12     COMM         2016-10-26 00:48:55.52
+..  CANCEL  ISU-14                                                              
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-14                                         
+    00000007 
+
+HST (09067) WBRN2_U4         1A001-00-3      COMM         2016-10-26 00:48:55.53
+..  CANCEL  ISU-11                                                              
+    3947    VIRTUAL MEDIA GATEWAY IS OUT OF SERVICE                         
+    HTAPRB  ISU-11                                         
+    00000005 
+
+HST (09219) WBRN2_U4         1A001-00-3      PROCES       2016-10-26 00:48:56.04
+.   CANCEL  ISU-11                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-11                                         
+    07 02 0005 0000 
+
+HST (09218) WBRN2_U4         1A001-00-12     PROCES       2016-10-26 00:48:56.17
+.   CANCEL  ISU-14                                                              
+    3379    SCTP PATH FAILURE                                               
+    HTAPRB  ISU-14                                         
+    07 02 0007 0000 
+
+HST (09008) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.24
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-9                                          
+    00 83 00000652 000004A9 9F 06 08 15 06 00 
+
+HST (09009) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.25
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-10                                         
+    07 83 00000652 1E0005FE 0C 01 7B 20 07 02 
+
+HST (09000) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.73
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-14                                         
+    07 80 00000652 1E0005FE 00 12 7C 38 08 00 
+
+HST (09017) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.73
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-14                                         
+    00 83 00000652 000004A9 F4 06 59 51 09 00 
+
+HST (09018) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.73
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-13                                         
+    00 83 00000652 000004A9 95 06 5E CD 09 00 
+
+HST (09012) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.78
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-15                                         
+    00 83 00000652 000004A9 3F 06 6A 58 02 00 
+
+HST (09004) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.79
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-6                                          
+    00 80 00000652 24000659 00 12 00 06 52 07 
+
+HST (09014) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.79
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-6                                          
+    00 83 00000652 000004A9 D8 06 CE 8D 05 00 
+
+HST (09023) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.81
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-7                                          
+    00 83 00000652 000004A9 DC 06 51 01 0A 00 
+
+HST (09010) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.87
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-2                                          
+    00 83 00000652 000004A9 79 06 3D 8B 04 00 
+
+HST (09019) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.88
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-1                                          
+    00 83 00000652 000004A9 21 06 27 90 00 00 
+
+HST (09007) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.92
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-8                                          
+    00 83 00000652 000004A9 62 01 6D BA 06 02 
+
+HST (09006) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.91
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-5                                          
+    00 83 00000652 24000659 00 06 CC 9B 01 00 
+
+HST (09016) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.91
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-5                                          
+    00 83 00000652 000004A9 D7 01 C9 46 07 02 
+
+HST (09003) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.92
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007CH   ISU-4                                          
+    00 80 00000652 1F0005F2 00 12 E7 AF 67 00 
+
+HST (09015) WBRN2_U4                         EQUIPM       2016-10-26 01:34:35.92
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-4                                          
+    00 83 00000652 000004A9 9B 06 22 C1 04 00 
+
+HST (09011) WBRN2_U4                         EQUIPM       2016-10-26 01:34:36.04
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-16                                         
+    00 83 00000652 000004A9 10 06 02 C8 03 00 
+
+HST (09021) WBRN2_U4                         EQUIPM       2016-10-26 01:34:36.06
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-11                                         
+    00 83 00000652 000004A9 8F 06 CC 90 08 00 
+
+HST (09005) WBRN2_U4                         EQUIPM       2016-10-26 01:34:36.15
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-3                                          
+    00 83 00000652 000004A9 60 06 CC 02 07 00 
+
+HST (09020) WBRN2_U4                         EQUIPM       2016-10-26 01:34:36.16
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-12                                         
+    00 83 00000652 000004A9 D3 06 2B 98 02 00 
+
+HST (09022) WBRN2_U4                         EQUIPM       2016-10-26 01:34:36.25
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-0                                          
+    00 83 00000652 000004A9 76 06 A2 10 0A 00 
+
+HST (09024) WBRN2_U4                         EQUIPM       2016-10-26 01:34:36.26
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-10                                         
+    00 83 00000652 000004A9 4A 01 F3 0C 05 02 
+
+HST (09057) WBRN2_U4                         EQUIPM       2016-10-26 01:34:51.02
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-2                                          
+    00 83 00000652 000004A9 1F 10 DA DA 08 BB 
+
+HST (09055) WBRN2_U4                         EQUIPM       2016-10-26 01:34:51.06
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-5                                          
+    00 83 00000652 000004A9 15 10 71 9D 00 CB 
+
+HST (09056) WBRN2_U4                         EQUIPM       2016-10-26 01:34:51.07
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-4                                          
+    00 83 00000652 000004A9 F5 10 0A 10 09 2F 
+
+HST (09058) WBRN2_U4                         EQUIPM       2016-10-26 01:34:51.97
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-7                                          
+    00 83 00000652 000004A9 D4 10 F0 10 05 DF 
+
+HST (09060) WBRN2_U4                         EQUIPM       2016-10-26 01:34:52.04
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-1                                          
+    00 83 00000652 000004A9 87 10 CB DC 0A ED 
+
+HST (09061) WBRN2_U4                         EQUIPM       2016-10-26 01:34:52.90
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-14                                         
+    00 83 00000652 000004A9 C8 10 57 5E 05 39 
+
+HST (09062) WBRN2_U4                         EQUIPM       2016-10-26 01:34:54.43
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-9                                          
+    00 83 00000652 000004A9 E2 10 DD 8C 07 B9 
+
+HST (09065) WBRN2_U4                         EQUIPM       2016-10-26 01:34:54.98
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-6                                          
+    00 83 00000652 000004A9 71 10 CF 58 05 19 
+
+HST (09064) WBRN2_U4                         EQUIPM       2016-10-26 01:34:55.25
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-11                                         
+    00 83 00000652 000004A9 19 10 F4 12 02 CC 
+
+HST (09063) WBRN2_U4                         EQUIPM       2016-10-26 01:34:55.44
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-0                                          
+    00 83 00000652 000004A9 02 10 A5 4D 07 A0 
+
+HST (09072) WBRN2_U4                         EQUIPM       2016-10-26 01:35:01.29
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-16                                         
+    00 83 00000652 000004A9 40 10 57 D2 03 D7 
+
+HST (09073) WBRN2_U4                         EQUIPM       2016-10-26 01:35:01.99
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-13                                         
+    00 83 00000652 000004A9 51 10 FD D5 00 68 
+
+HST (09077) WBRN2_U4                         EQUIPM       2016-10-26 01:35:06.21
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-5                                          
+    00 83 00000652 000004A9 36 01 FE 2B 07 02 
+
+HST (09079) WBRN2_U4                         EQUIPM       2016-10-26 01:35:06.46
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-12                                         
+    00 83 00000652 000004A9 6A 10 E7 14 04 49 
+
+HST (09082) WBRN2_U4                         EQUIPM       2016-10-26 01:35:07.23
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-4                                          
+    00 83 00000652 000004A9 C1 10 A0 11 04 30 
+
+HST (09084) WBRN2_U4                         EQUIPM       2016-10-26 01:35:08.47
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-3                                          
+    00 83 00000652 000004A9 39 10 50 11 02 48 
+
+HST (09086) WBRN2_U4                         EQUIPM       2016-10-26 01:35:09.11
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-15                                         
+    00 83 00000652 000004A9 09 10 4F DA 06 68 
+
+HST (09088) WBRN2_U4                         EQUIPM       2016-10-26 01:35:10.07
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-14                                         
+    00 83 00000652 000004A9 11 10 5D 1B 0A CD 
+
+HST (09087) WBRN2_U4                         EQUIPM       2016-10-26 01:35:10.22
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-1                                          
+    00 83 00000652 000004A9 D0 10 2D 09 08 D9 
+
+HST (09089) WBRN2_U4                         EQUIPM       2016-10-26 01:35:10.60
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-10                                         
+    00 83 00000652 000004A9 0D 10 1F 8D 04 C2 
+
+HST (09093) WBRN2_U4                         EQUIPM       2016-10-26 01:35:12.42
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-11                                         
+    00 83 00000652 000004A9 C7 10 1E DE 09 54 
+
+HST (09053) WBRN2_U4                         EQUIPM       2016-10-26 01:35:50.52
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-15                                         
+    00 83 00000652 000004A9 B6 10 04 15 07 DC 
+
+HST (09059) WBRN2_U4                         EQUIPM       2016-10-26 01:35:52.01
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-10                                         
+    00 83 00000652 000004A9 36 10 13 56 09 BA 
+
+HST (09071) WBRN2_U4                         EQUIPM       2016-10-26 01:35:57.73
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-8                                          
+    00 83 00000652 000004A9 19 10 56 8E 07 CF 
+
+HST (09080) WBRN2_U4                         EQUIPM       2016-10-26 01:37:07.31
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-7                                          
+    00 83 00000652 000004A9 1A 10 55 93 0A 96 
+
+HST (09091) WBRN2_U4                         EQUIPM       2016-10-26 01:38:11.38
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-0                                          
+    00 83 00000652 000004A9 A4 10 00 1D 03 75 
+
+HST (09054) WBRN2_U4                         EQUIPM       2016-10-26 01:41:51.47
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-12                                         
+    00 83 00000652 000004A9 92 10 C0 84 01 AD 
+
+HST (09092) WBRN2_U4                         EQUIPM       2016-10-26 01:44:12.96
+.   CANCEL  NONE                                                                
+    2224    ERROR IN MSU HANDLING                                           
+    007DH   ISU-9                                          
+    00 83 00000652 000004A9 88 10 74 1F 07 4F 
+
+HST (09220) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-26 03:01:06.75
+    NOTICE  OMU-0                                                               
+    0027    SOFTWARE PACKAGE FALLBACK COPYING NOTICE                        
+    SW5ADM  OMU-0                          NMS             
+    STARTED 
+
+HST (09221) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-26 03:01:06.78
+    NOTICE  OMU-0                                                               
+    0033    FILE UPDATES TO DISK PREVENTED                                  
+    FEDSER  OMU-0                                          
+
+HST (09222) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-26 03:05:03.85
+    NOTICE  OMU-0                                                               
+    0036    FILE UPDATES TO DISK RESUMED                                    
+    FEDSER  OMU-0                                          
+
+HST (09223) WBRN2_U4         1A001-00-16     EQUIPM       2016-10-26 03:06:07.52
+    NOTICE  OMU-0                                                               
+    0027    SOFTWARE PACKAGE FALLBACK COPYING NOTICE                        
+    SW5ADM  OMU-0                          NMS             
+    READY 
+
+NUMBER OF ALARM EVENTS DISPLAYED:
+
+  *** ALARM  = 8     ; ... ALARM = 8     
+   ** ALARM  = 5     ;  .. ALARM = 5     
+    * ALARM  = 59    ;   . ALARM = 59    
+     DISTUR  = 154   
+     NOTICE  = 5     
+
+TOTAL:  SET  = 231   ;  CANCELED = 72    
+
+COMMAND EXECUTED
+
+
+ALARM HISTORY HANDLING COMMAND <AH_>

@@ -1,0 +1,874 @@
+﻿[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ c7xtermx -n WBRN1
+?
+
+
+MGW       WBRN1                     2016-10-31  09:57:12
+
+       MAIN LEVEL             
+
+       ? ..... DISPLAY MENU             
+       A ..... ALARM SYSTEM ADMINISTRATION             
+       C ..... ROUTING STATE ADMINISTRATION             
+       D ..... SYSTEM SUPPORT AND COMMUNICATION             
+       I ..... I/O SYSTEM ADMINISTRATION             
+       J ..... IP TELEPHONY  ADMINISTRATION             
+       L ..... BROADBAND ADMINISTRATION             
+       N ..... SS7 NETWORK ADMINISTRATION             
+       O ..... SUPPLEMENTARY SS7 NETWORK ADMINISTRATION             
+       Q ..... O&M NETWORK ADMINISTRATION             
+       R ..... ROUTING ADMINISTRATION             
+       T ..... TRAFFIC ADMINISTRATION             
+       U ..... UNIT ADMINISTRATION             
+       W ..... SYSTEM CONFIGURATION ADMINISTRATION             
+       Y ..... SYSTEM SUPERVISION             
+       Z; .... END DIALOGUE/DESTINATION SELECTION (:)             
+
+
+MAIN LEVEL COMMAND <___>
+ZUSI
+
+
+LOADING PROGRAM VERSION 6.35-0
+
+/* DATA UNITS:
+
+   UNIT IDENTIFICATION: WORKING STATE, INFO:
+   DEPTH OF UNIT HIERARCHY: CONFIGURATION;    */
+
+USI:
+
+/* IDENTIFY UNIT TYPE:
+
+    OMU ... OPERATION AND MAINTENANCE UNIT                      
+    CM .... CENTRAL MEMORY                                      
+    ET .... EXCHANGE TERMINAL                                   
+    MXU ... MULTIPLEXER UNIT                                    
+    VANU .. VOICE ANNOUNCEMENT UNIT                             
+    STER .. SIGNALLING TERMINAL                                 
+    VETGR . VIRTUAL EXCHANGE TERMINAL GROUP                     
+    NPGEP . NETWORK PROCESSOR INTERFACE UNIT GIGABIT ETHERNET PROTECTED
+    NPS1P . NETWORK PROCESSOR INTERFACE UNIT STM-1 PROTECTED    
+    CACU .. CONTROL AND ADMINISTRATIVE COMPUTER UNIT            
+    ISU ... INTERFACE SIGNALING UNIT                            
+    TPG ... TRANSCODING PROCESSOR GROUP                         
+    SFU ... SWITCHING FABRIC UNIT                               
+    EHU ... EXTERNAL HARDWARE ALARM UNIT                        
+    IWS1E . INTERWORKING UNIT STM-1 (E1 INTERFACE)              
+    TBU ... TIMING AND HARDWARE MANAGEMENT BUS UNIT             
+    SET ... SDH EXCHANGE TERMINAL                               
+    DSP ... DIGITAL SIGNAL PROCESSOR                            
+    TCU ... TRANSCODING UNIT                                    
+    DSPGR . DIGITAL SIGNAL PROCESSING GROUP                     
+
+    DEFAULT IS ALL UNIT TYPES     */
+
+USI:;
+
+WORKING STATES OF UNITS             2016-10-31  09:58:14  
+
+ UNIT            PHYS   LOG    STATE  INFO
+ OMU-0           0000H  4002H  SP-EX  -
+ OMU-1           0001H  4002H  WO-EX  -
+ CM-0            000EH  4005H  SP-EX  -
+ CM-1            0023H  4005H  WO-EX  -
+ MXU-0           0013H  4242H  SP-EX  -
+ MXU-1           0018H  4242H  WO-EX  -
+ MXU-2           0026H  4243H  SP-EX  -
+ MXU-3           0028H  4243H  WO-EX  -
+ MXU-4           0055H  4244H  SP-EX  -
+ MXU-5           0057H  4244H  WO-EX  -
+ MXU-6           007FH  4245H  SP-EX  -
+ MXU-7           0081H  4245H  WO-EX  -
+ MXU-8           00A8H  4246H  SP-EX  -
+ MXU-9           00AAH  4246H  WO-EX  -
+ MXU-10          00B6H  4247H  SP-EX  -
+ MXU-11          00B8H  4247H  WO-EX  -
+ MXU-12          00BFH  4248H  SP-EX  -
+ MXU-13          00C1H  4248H  WO-EX  -
+ MXU-14          00C8H  4249H  SP-EX  -
+ MXU-15          00CAH  4249H  WO-EX  -
+ MXU-16          00CDH  424AH  SP-EX  -
+ MXU-17          00CFH  424AH  WO-EX  -
+ MXU-18          00D1H  424BH  SP-EX  -
+ MXU-19          00D3H  424BH  WO-EX  -
+ MXU-20          00D5H  424CH  SP-EX  -
+ MXU-21          00D7H  424CH  WO-EX  -
+ MXU-22          00D9H  424DH  SP-EX  -
+ MXU-23          00DBH  424DH  WO-EX  -
+ VANU-0          000AH  4722H  WO-EX  -
+ VANU-1          0022H  4723H  WO-EX  -
+ NPGEP-0         001AH  48DFH  SP-EX  -
+ NPGEP-1         002AH  48DFH  WO-EX  -
+ NPGEP-2         005DH  48E0H  SP-EX  -
+ NPGEP-3         0087H  48E0H  WO-EX  -
+ NPS1P-4       > 0090H  48F3H  WO-EX  -
+ NPS1P-5       > 0092H  48F3H  SP-EX  -
+ CACU-0          0010H  454DH  SP-EX  -
+ CACU-1          0024H  454DH  WO-EX  -
+ ISU-0           0021H  4558H  WO-EX  -
+ ISU-1           005CH  455AH  WO-EX  -
+ ISU-2           0086H  454FH  WO-EX  -
+ ISU-3           00AFH  492BH  WO-EX  -
+ ISU-4           00BDH  4550H  WO-EX  -
+ ISU-5           00C2H  492DH  WO-EX  -
+ ISU-6           00CBH  492FH  WO-EX  -
+ ISU-7           00D0H  4557H  WO-EX  -
+ ISU-8           00D4H  4551H  WO-EX  -
+ ISU-9           00D8H  492AH  WO-EX  -
+ ISU-10          00DCH  492EH  WO-EX  -
+ ISU-11          0006H  4554H  WO-EX  -
+ ISU-12          0012H  4555H  WO-EX  -
+ ISU-13          0025H  4552H  WO-EX  -
+ ISU-14          0019H  492CH  WO-EX  -
+ ISU-15          0029H  4556H  WO-EX  -
+ ISU-16          001FH  4553H  WO-EX  -
+ ISU-17          002BH  4559H  SP-EX  -
+ SFU-0           0004H  45FDH  SP-EX  -
+ SFU-1           0020H  45FDH  WO-EX  -
+ EHU-0                         WO-EX  -
+ IWS1E-0       >               WO-EX  -
+ IWS1E-3       >               WO-EX  -
+ IWS1E-6       >               WO-EX  -
+ IWS1E-9       >               WO-EX  -
+ IWS1E-12      >               WO-EX  -
+ IWS1E-15      >               WO-EX  -
+ IWS1E-18      >               WO-EX  -
+ IWS1E-21      >               WO-EX  -
+ IWS1E-24      >               WO-EX  -
+ IWS1E-27      >               WO-EX  -
+ TBU-0                         WO-EX  -
+ TBU-1                         SP-EX  -
+ TCU-30        >               WO-EX  -
+ TCU-31        >               WO-EX  -
+ TCU-32        >               WO-EX  -
+ TCU-33        >               WO-EX  -
+ TCU-40        >               WO-EX  -
+ TCU-41        >               WO-EX  -
+ TCU-42        >               WO-EX  -
+ TCU-43        >               WO-EX  -
+ TCU-44        >               WO-EX  -
+ TCU-45        >               WO-EX  -
+ TCU-50        >               WO-EX  -
+ TCU-51        >               WO-EX  -
+ TCU-52        >               WO-EX  -
+ TCU-53        >               WO-EX  -
+ TCU-54        >               WO-EX  -
+ TCU-55        >               WO-EX  -
+ TCU-60        >               WO-EX  -
+ TCU-61        >               WO-EX  -
+ TCU-62        >               WO-EX  -
+ TCU-63        >               WO-EX  -
+ TCU-64        >               WO-EX  -
+ TCU-70        >               WO-EX  -
+ TCU-71        >               WO-EX  -
+ TCU-72        >               WO-EX  -
+
+NUMBER OF UNITS DISPLAYED = 95
+
+
+COMMAND EXECUTED
+
+
+WORKING STATE AND RESTART HANDLING COMMAND <US_>
+< ZISI
+
+/*** MML PROGRAM LOAD ERROR ***/
+/*** UNKNOWN COMMAND GROUP ***/
+
+I/O SYSTEM ADMINISTRATION COMMAND <I__>
+< 
+
+
+I/O SYSTEM ADMINISTRATION COMMAND <I__>
+< ;
+
+
+/*** MML PROGRAM LOAD ERROR ***/
+/*** UNKNOWN COMMAND GROUP ***/
+
+I/O SYSTEM ADMINISTRATION COMMAND <I__>
+< 
+/*** EXCESSIVE INPUT DELAY ***/
+
+END OF DIALOGUE SESSION
+
+Connection closed by foreign host.
+
+[Connection is closed by NE]
+Press Enter to continue.
+[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ c7xtermx -n WBRN1
+?
+
+
+MGW       WBRN1                     2016-10-31  13:10:33
+
+       MAIN LEVEL             
+
+       ? ..... DISPLAY MENU             
+       A ..... ALARM SYSTEM ADMINISTRATION             
+       C ..... ROUTING STATE ADMINISTRATION             
+       D ..... SYSTEM SUPPORT AND COMMUNICATION             
+       I ..... I/O SYSTEM ADMINISTRATION             
+       J ..... IP TELEPHONY  ADMINISTRATION             
+       L ..... BROADBAND ADMINISTRATION             
+       N ..... SS7 NETWORK ADMINISTRATION             
+       O ..... SUPPLEMENTARY SS7 NETWORK ADMINISTRATION             
+       Q ..... O&M NETWORK ADMINISTRATION             
+       R ..... ROUTING ADMINISTRATION             
+       T ..... TRAFFIC ADMINISTRATION             
+       U ..... UNIT ADMINISTRATION             
+       W ..... SYSTEM CONFIGURATION ADMINISTRATION             
+       Y ..... SYSTEM SUPERVISION             
+       Z; .... END DIALOGUE/DESTINATION SELECTION (:)             
+
+
+MAIN LEVEL COMMAND <___>
+< ZNET;
+
+
+LOADING PROGRAM VERSION 8.47-1
+
+MGW       WBRN1                     2016-10-31  13:10:58
+
+NETWORK ITEM STATES
+
+SIGNALLING ROUTE SETS
+
+NETWORK: NA0 
+
+                                           SIGNALLING ROUTES
+SP CODE H/D        NAME             STATE  IN ROUTE SET      STATE    INFO
+================== ================ =====  ========================== ==========
+  04E8/01256       BVNL1            AV      04E8/01256       AV-EX 
+  05BF/01471       BMIK1            AV      05BF/01471       AV-EX 
+  05C6/01478       BPHUA            AV      05C6/01478       AV-EX 
+  05DF/01503       BPCO3            UA      05DF/01503       UA-INU
+  05E0/01504       BPCO2            AV      05E0/01504       AV-EX 
+  05E1/01505       BPCO4            AV      05E1/01505       AV-EX 
+  05FA/01530       XBRN1            AV      05FA/01530       AV-EX 
+  060B/01547       BPICO            AV      060B/01547       AV-EX 
+  0646/01606       BMHUA            AV      0646/01606       AV-EX 
+  0658/01624       WBRN1            OWN SIGNALLING POINT AS TRANSFER POINT
+  06CD/01741       RFEMALU          AV      06CD/01741       AV-EX 
+  06CF/01743       BUSO4            AV      06CF/01743       AV-EX 
+
+
+SIGNALLING LINK SETS
+
+
+NET SP CODE H/D          LINK SET            STATE SIGNALLING LINKS IN LINK SET
+=== ==================   =================== ===== =============================
+NA0   04E8/01256         29 BVNL1              AV     196    197    198    199  
+
+NA0   05BF/01471         18 BMIK1              AV     101    102  
+
+NA0   05C6/01478         21 BPHUA              AV     140    141    142    143  
+
+NA0   05DF/01503         23 BPCO3              UA     160    161    162    163  
+
+NA0   05E0/01504         22 BPCO2              AV     150    151    152    153  
+
+NA0   05E1/01505         24 BPCO4              AV     170    171    172    173  
+
+NA0   05FA/01530         17 XBRN1              AV       0  
+ LINK TEST NOT ALLOWED
+
+NA0   060B/01547         20 BPICO              AV     130    131    132    133  
+                                                      134    135    136    137  
+                                                      138    139    190    191  
+                                                      192    193    194    195  
+
+NA0   0646/01606         19 BMHUA              AV     121    122    123    124  
+                                                      125    126    127    128  
+                                                      129    120    119    118  
+                                                      114    115    116    117  
+
+NA0   06CD/01741         28 RFEMALU            AV     502  
+ LINK TEST NOT ALLOWED
+
+NA0   06CF/01743         26 BUSO4              AV     180    181  
+
+
+SIGNALLING LINKS
+
+TDM BASED LINKS (Q703)
+======================
+                            LINK              LOG               EXTERN      BIT
+ LINK LINK SET              STATE      UNIT   TERM ETGR      TF PCM-TSL     RATE
+ ==== ===================== ======     =========== ============ ================
+  101   18 BMIK1            AV-EX      ISU-0     0 STER-3     0 2330-01&&31 1984
+  102   18 BMIK1            AV-EX      ISU-16    3 STER-13    0 3086-01&&31 1984
+  114   19 BMHUA            AV-EX      ISU-16    1 STER-4     8 1552-16       64
+  115   19 BMHUA            AV-EX      ISU-7     1 STER-4     9 1556-16       64
+  116   19 BMHUA            AV-EX      ISU-9     0 STER-0     5 1278-16       64
+  117   19 BMHUA            AV-EX      ISU-10    2 STER-0     6 1282-16       64
+  118   19 BMHUA            AV-EX      ISU-2     1 STER-4     7 1548-16       64
+  119   19 BMHUA            AV-EX      ISU-1     1 STER-4     6 1544-16       64
+  120   19 BMHUA            AV-EX      ISU-0     2 STER-4     5 1540-16       64
+  121   19 BMHUA            AV-EX      ISU-5     0 STER-4    13 1561-16       64
+  122   19 BMHUA            AV-EX      ISU-6     0 STER-4     0 1536-16       64
+  123   19 BMHUA            AV-EX      ISU-10    1 STER-0     3 1270-16       64
+  124   19 BMHUA            AV-EX      ISU-11    1 STER-0     4 1274-16       64
+  125   19 BMHUA            AV-EX      ISU-8     1 STER-4    14 1562-16       64
+  126   19 BMHUA            AV-EX      ISU-12    1 STER-4    15 1563-16       64
+  127   19 BMHUA            AV-EX      ISU-13    1 STER-4    16 1564-16       64
+  128   19 BMHUA            AV-EX      ISU-15    1 STER-4    17 1565-16       64
+  129   19 BMHUA            AV-EX      ISU-14    0 STER-4    18 1566-16       64
+  130   20 BPICO            AV-EX      ISU-3     0 STER-11    0 2772-16       64
+  131   20 BPICO            AV-EX      ISU-4     0 STER-11    1 2780-16       64
+  132   20 BPICO            AV-EX      ISU-8     2 STER-11    2 2781-16       64
+  133   20 BPICO            AV-EX      ISU-12    2 STER-11    3 2785-16       64
+  134   20 BPICO            AV-EX      ISU-5     2 STER-11    4 2774-16       64
+  135   20 BPICO            AV-EX      ISU-6     2 STER-11    5 2775-16       64
+  136   20 BPICO            AV-EX      ISU-7     2 STER-11    6 2773-16       64
+  137   20 BPICO            AV-EX      ISU-9     3 STER-11    7 2778-16       64
+  138   20 BPICO            AV-EX      ISU-10    3 STER-11    8 2779-16       64
+  139   20 BPICO            AV-EX      ISU-11    3 STER-11    9 2777-16       64
+  140   21 BPHUA            AV-EX      ISU-14    2 STER-0     1 1268-16       64
+  141   21 BPHUA            AV-EX      ISU-0     1 STER-4     1 1532-16       64
+  142   21 BPHUA            AV-EX      ISU-1     2 STER-4    12 1560-16       64
+  143   21 BPHUA            AV-EX      ISU-2     3 STER-4    19 1567-16       64
+  150   22 BPCO2            AV-EX      ISU-7     0 STER-0     0 1260-16       64
+  151   22 BPCO2            AV-EX      ISU-16    0 STER-4     2 1512-16       64
+  152   22 BPCO2            AV-EX      ISU-9     2 STER-4    10 1517-16       64
+  153   22 BPCO2            AV-EX      ISU-11    2 STER-4    20 1568-16       64
+  160   23 BPCO3            UA-INU     ISU-10    0 STER-4     3 1518-16       64
+  161   23 BPCO3            UA-INU     ISU-11    0 STER-4     4 1522-16       64
+  162   23 BPCO3            UA-INU     ISU-8     0 STER-4    21 1569-16       64
+  163   23 BPCO3            UA-INU     ISU-12    0 STER-4    22 1570-16       64
+  170   24 BPCO4            AV-EX      ISU-13    0 STER-0     2 1264-16       64
+  171   24 BPCO4            AV-EX      ISU-15    0 STER-4    23 1571-16       64
+  172   24 BPCO4            AV-EX      ISU-2     2 STER-4    24 1572-16       64
+  173   24 BPCO4            AV-EX      ISU-3     2 STER-4    11 1529-16       64
+  180   26 BUSO4            AV-EX      ISU-5     1 STER-12    0 2016-01&&31 1984
+  181   26 BUSO4            AV-EX      ISU-8     4 STER-14    0 3338-01&&31 1984
+  190   20 BPICO            AV-EX      ISU-13    2 STER-11   10 2776-16       64
+  191   20 BPICO            AV-EX      ISU-15    2 STER-11   11 2784-16       64
+  192   20 BPICO            AV-EX      ISU-14    3 STER-11   12 2782-16       64
+  193   20 BPICO            AV-EX      ISU-0     3 STER-11   13 2786-16       64
+  194   20 BPICO            AV-EX      ISU-1     3 STER-11   14 2783-16       64
+  195   20 BPICO            AV-EX      ISU-2     4 STER-11   15 2787-16       64
+  196   29 BVNL1            AV-EX      ISU-3     1 STER-4    25 1573-16       64
+  197   29 BVNL1            UA-INU     ISU-4     1 STER-4    26 1573-17       64
+  198   29 BVNL1            AV-EX      ISU-6     1 STER-8     0 1772-16       64
+  199   29 BVNL1            UA-INU     ISU-16    2 STER-8     1 1772-17       64
+
+M3UA BASED LINKS
+================
+ M3UA                          ASSOCIATION  LINK
+ LINK  LINK SET                SET          STATE
+ ====  =====================   ===========  ======
+    0    17 XBRN1                0          AV-EX     
+  502    28 RFEMALU              4          AV-EX     
+
+COMMAND EXECUTED
+
+
+SIGNALLING NETWORK STATE INTERROGATION COMMAND <NE_>
+ZNET;
+
+LOADING PROGRAM VERSION 8.47-1
+
+MGW       WBRN1                     2016-10-31  13:11:08
+
+NETWORK ITEM STATES
+
+SIGNALLING ROUTE SETS
+
+NETWORK: NA0 
+
+                                           SIGNALLING ROUTES
+SP CODE H/D        NAME             STATE  IN ROUTE SET      STATE    INFO
+================== ================ =====  ========================== ==========
+  04E8/01256       BVNL1            AV      04E8/01256       AV-EX 
+  05BF/01471       BMIK1            AV      05BF/01471       AV-EX 
+  05C6/01478       BPHUA            AV      05C6/01478       AV-EX 
+  05DF/01503       BPCO3            UA      05DF/01503       UA-INU
+  05E0/01504       BPCO2            AV      05E0/01504       AV-EX 
+  05E1/01505       BPCO4            AV      05E1/01505       AV-EX 
+  05FA/01530       XBRN1            AV      05FA/01530       AV-EX 
+  060B/01547       BPICO            AV      060B/01547       AV-EX 
+  0646/01606       BMHUA            AV      0646/01606       AV-EX 
+  0658/01624       WBRN1            OWN SIGNALLING POINT AS TRANSFER POINT
+  06CD/01741       RFEMALU          AV      06CD/01741       AV-EX 
+  06CF/01743       BUSO4            AV      06CF/01743       AV-EX 
+
+
+SIGNALLING LINK SETS
+
+
+NET SP CODE H/D          LINK SET            STATE SIGNALLING LINKS IN LINK SET
+=== ==================   =================== ===== =============================
+NA0   04E8/01256         29 BVNL1              AV     196    197    198    199  
+
+NA0   05BF/01471         18 BMIK1              AV     101    102  
+
+NA0   05C6/01478         21 BPHUA              AV     140    141    142    143  
+
+NA0   05DF/01503         23 BPCO3              UA     160    161    162    163  
+
+NA0   05E0/01504         22 BPCO2              AV     150    151    152    153  
+
+NA0   05E1/01505         24 BPCO4              AV     170    171    172    173  
+
+NA0   05FA/01530         17 XBRN1              AV       0  
+ LINK TEST NOT ALLOWED
+
+NA0   060B/01547         20 BPICO              AV     130    131    132    133  
+                                                      134    135    136    137  
+                                                      138    139    190    191  
+                                                      192    193    194    195  
+
+NA0   0646/01606         19 BMHUA              AV     121    122    123    124  
+                                                      125    126    127    128  
+                                                      129    120    119    118  
+                                                      114    115    116    117  
+
+NA0   06CD/01741         28 RFEMALU            AV     502  
+ LINK TEST NOT ALLOWED
+
+NA0   06CF/01743         26 BUSO4              AV     180    181  
+
+
+SIGNALLING LINKS
+
+TDM BASED LINKS (Q703)
+======================
+                            LINK              LOG               EXTERN      BIT
+ LINK LINK SET              STATE      UNIT   TERM ETGR      TF PCM-TSL     RATE
+ ==== ===================== ======     =========== ============ ================
+  101   18 BMIK1            AV-EX      ISU-0     0 STER-3     0 2330-01&&31 1984
+  102   18 BMIK1            AV-EX      ISU-16    3 STER-13    0 3086-01&&31 1984
+  114   19 BMHUA            AV-EX      ISU-16    1 STER-4     8 1552-16       64
+  115   19 BMHUA            AV-EX      ISU-7     1 STER-4     9 1556-16       64
+  116   19 BMHUA            AV-EX      ISU-9     0 STER-0     5 1278-16       64
+  117   19 BMHUA            AV-EX      ISU-10    2 STER-0     6 1282-16       64
+  118   19 BMHUA            AV-EX      ISU-2     1 STER-4     7 1548-16       64
+  119   19 BMHUA            AV-EX      ISU-1     1 STER-4     6 1544-16       64
+  120   19 BMHUA            AV-EX      ISU-0     2 STER-4     5 1540-16       64
+  121   19 BMHUA            AV-EX      ISU-5     0 STER-4    13 1561-16       64
+  122   19 BMHUA            AV-EX      ISU-6     0 STER-4     0 1536-16       64
+  123   19 BMHUA            AV-EX      ISU-10    1 STER-0     3 1270-16       64
+  124   19 BMHUA            AV-EX      ISU-11    1 STER-0     4 1274-16       64
+  125   19 BMHUA            AV-EX      ISU-8     1 STER-4    14 1562-16       64
+  126   19 BMHUA            AV-EX      ISU-12    1 STER-4    15 1563-16       64
+  127   19 BMHUA            AV-EX      ISU-13    1 STER-4    16 1564-16       64
+  128   19 BMHUA            AV-EX      ISU-15    1 STER-4    17 1565-16       64
+  129   19 BMHUA            AV-EX      ISU-14    0 STER-4    18 1566-16       64
+  130   20 BPICO            AV-EX      ISU-3     0 STER-11    0 2772-16       64
+  131   20 BPICO            AV-EX      ISU-4     0 STER-11    1 2780-16       64
+  132   20 BPICO            AV-EX      ISU-8     2 STER-11    2 2781-16       64
+  133   20 BPICO            AV-EX      ISU-12    2 STER-11    3 2785-16       64
+  134   20 BPICO            AV-EX      ISU-5     2 STER-11    4 2774-16       64
+  135   20 BPICO            AV-EX      ISU-6     2 STER-11    5 2775-16       64
+  136   20 BPICO            AV-EX      ISU-7     2 STER-11    6 2773-16       64
+  137   20 BPICO            AV-EX      ISU-9     3 STER-11    7 2778-16       64
+  138   20 BPICO            AV-EX      ISU-10    3 STER-11    8 2779-16       64
+  139   20 BPICO            AV-EX      ISU-11    3 STER-11    9 2777-16       64
+  140   21 BPHUA            AV-EX      ISU-14    2 STER-0     1 1268-16       64
+  141   21 BPHUA            AV-EX      ISU-0     1 STER-4     1 1532-16       64
+  142   21 BPHUA            AV-EX      ISU-1     2 STER-4    12 1560-16       64
+  143   21 BPHUA            AV-EX      ISU-2     3 STER-4    19 1567-16       64
+  150   22 BPCO2            AV-EX      ISU-7     0 STER-0     0 1260-16       64
+  151   22 BPCO2            AV-EX      ISU-16    0 STER-4     2 1512-16       64
+  152   22 BPCO2            AV-EX      ISU-9     2 STER-4    10 1517-16       64
+  153   22 BPCO2            AV-EX      ISU-11    2 STER-4    20 1568-16       64
+  160   23 BPCO3            UA-INU     ISU-10    0 STER-4     3 1518-16       64
+  161   23 BPCO3            UA-INU     ISU-11    0 STER-4     4 1522-16       64
+  162   23 BPCO3            UA-INU     ISU-8     0 STER-4    21 1569-16       64
+  163   23 BPCO3            UA-INU     ISU-12    0 STER-4    22 1570-16       64
+  170   24 BPCO4            AV-EX      ISU-13    0 STER-0     2 1264-16       64
+  171   24 BPCO4            AV-EX      ISU-15    0 STER-4    23 1571-16       64
+  172   24 BPCO4            AV-EX      ISU-2     2 STER-4    24 1572-16       64
+  173   24 BPCO4            AV-EX      ISU-3     2 STER-4    11 1529-16       64
+  180   26 BUSO4            AV-EX      ISU-5     1 STER-12    0 2016-01&&31 1984
+  181   26 BUSO4            AV-EX      ISU-8     4 STER-14    0 3338-01&&31 1984
+  190   20 BPICO            AV-EX      ISU-13    2 STER-11   10 2776-16       64
+  191   20 BPICO            AV-EX      ISU-15    2 STER-11   11 2784-16       64
+  192   20 BPICO            AV-EX      ISU-14    3 STER-11   12 2782-16       64
+  193   20 BPICO            AV-EX      ISU-0     3 STER-11   13 2786-16       64
+  194   20 BPICO            AV-EX      ISU-1     3 STER-11   14 2783-16       64
+  195   20 BPICO            AV-EX      ISU-2     4 STER-11   15 2787-16       64
+  196   29 BVNL1            AV-EX      ISU-3     1 STER-4    25 1573-16       64
+  197   29 BVNL1            UA-INU     ISU-4     1 STER-4    26 1573-17       64
+  198   29 BVNL1            AV-EX      ISU-6     1 STER-8     0 1772-16       64
+  199   29 BVNL1            UA-INU     ISU-16    2 STER-8     1 1772-17       64
+
+M3UA BASED LINKS
+================
+ M3UA                          ASSOCIATION  LINK
+ LINK  LINK SET                SET          STATE
+ ====  =====================   ===========  ======
+    0    17 XBRN1                0          AV-EX     
+  502    28 RFEMALU              4          AV-EX     
+
+COMMAND EXECUTED
+
+
+SIGNALLING NETWORK STATE INTERROGATION COMMAND <NE_>
+< ZNET?
+
+LOADING PROGRAM VERSION 8.47-1
+
+/* DATA UNITS:
+
+   SIGNALLING NETWORKS; */
+
+NET:ZNE?
+
+/*** SYNTAX ERROR ***/
+/*** INVALID DELIMITER ***/
+
+/* IDENTIFY SIGNALLING NETWORK:
+
+    NA0 ... NATIONAL NETWORK NUMBER 0
+
+    DEFAULT IS ALL NETWORKS */
+
+NET:NA0
+
+/* EXECUTION  DETERMINATION:
+   ; .. COMMAND EXECUTION
+   N .. NO EXECUTION        */
+
+NET:NA0:WTBS7
+
+/*** SYNTAX ERROR ***/
+/*** INVALID INFORMATION UNIT ***/
+
+/* EXECUTION  DETERMINATION:
+   ; .. COMMAND EXECUTION
+   N .. NO EXECUTION        */
+
+NET:NA0:
+/*** INTERRUPT ***/
+
+SIGNALLING NETWORK STATE INTERROGATION COMMAND <NE_>
+< ZAHO;
+
+LOADING PROGRAM VERSION 5.26-0
+
+/*** SEMANTIC ERROR ***/ 
+/*** MISSING PARAMETER ***/ 
+
+
+ALARM HISTORY HANDLING COMMAND <AH_>
+< CHHU
+
+/*** UNKNOWN COMMAND ***/
+
+ALARM HISTORY HANDLING COMMAND <AH_>
+< ZJVI
+
+LOADING PROGRAM VERSION 11.16-2
+
+/* DATA UNITS:                                         
+                                                       
+   DISPLAY MODE:                                       
+   VIRTUAL MGW ID, VIRTUAL MGW NAME, ISU UNIT INDEX:   
+   CONTROLLER NUMBER;                                */
+
+JVI:
+
+/* IDENTIFY DISPLAY MODE:   
+                            
+   PARAMETER NAMES          
+                            
+   MOD .... DISPLAY MODE  */
+
+JVI:MOD
+
+
+/* SPECIFY DISPLAY MODE:
+
+   0 ... FULL VMGW, CONTROLLER AND REGISTRATION DATA
+   1 ... REGISTRATION DATA
+   2 ... CONTROLLER DATA
+   3 ... BASIC MGW DATA (DEFAULT)
+   4 ... MGW ISU UNIT STATES AND ROLES IN VMGWS
+   5 ... VMGW LOAD PERCENTAGES AND H.248 LOAD BALANCER STATES */
+
+JVI:MOD=3;
+
+MGW       WBRN1                     2016-10-31  13:17:56
+
+VIRTUAL MGW DATA:
+
+VMGW ID  VMGW NAME         REGA  REG STATUS      (M)ISU UNIT  (S)ISU UNIT(S)
+=======  ================  ====  ==============  ===========  ================
+0        XBRN1WBRN1V00     Y     REGISTERED      14           0,1,2,3,4,5,6,7,
+  8,9,10,11,12,16,13,15,
+1        XBRN1WBRN1V01     Y     REGISTERED      0            14,1,2,3,4,5,6,7,
+  8,9,10,11,12,16,13,15,
+2        XBRN1WBRN1V02     Y     REGISTERED      1            14,0,2,3,4,5,6,7,
+  8,9,10,11,12,16,13,15,
+3        XBRN1WBRN1V03     Y     REGISTERED      2            14,0,1,3,4,5,6,7,
+  8,9,10,11,12,16,13,15,
+4        XBRN1WBRN1V04     Y     REGISTERED      3            14,0,1,2,4,5,6,7,
+  8,9,10,11,12,16,13,15,
+5        XBRN1WBRN1V05     Y     REGISTERED      4            14,0,1,2,3,5,6,7,
+  8,9,10,11,12,16,13,15,
+6        XBRN1WBRN1V06     Y     REGISTERED      5            14,0,1,2,3,4,6,7,
+  8,9,10,11,12,16,13,15,
+7        XBRN1WBRN1V07     Y     REGISTERED      6            14,0,1,2,3,4,5,7,
+  8,9,10,11,12,16,13,15,
+8        XBRN1WBRN1V08     Y     REGISTERED      7            14,0,1,2,3,4,5,6,
+  8,9,10,11,12,16,13,15,
+9        XBRN1WBRN1V09     Y     REGISTERED      16           14,0,1,2,3,4,5,6,
+  7,8,9,10,11,12,13,15,
+10       XBRN1WBRN1V10     Y     REGISTERED      9            14,0,1,2,3,4,5,6,
+  7,8,10,11,12,16,13,15,
+11       XBRN1WBRN1V11     Y     REGISTERED      10           14,0,1,2,3,4,5,6,
+  7,8,9,11,12,16,13,15,
+12       XBRN1WBRN1V12     Y     REGISTERED      11           14,0,1,2,3,4,5,6,
+  7,8,9,10,12,16,13,15,
+13       XBRN1WBRN1V13     Y     REGISTERED      8            14,0,1,2,3,4,5,6,
+  7,9,10,11,12,16,13,15,
+14       XBRN1WBRN1V14     Y     REGISTERED      12           14,0,1,2,3,4,5,6,
+  7,8,9,10,11,16,13,15,
+15       XBRN1WBRN1V15     Y     REGISTERED      13           14,0,1,2,3,4,5,6,
+  7,8,9,10,11,12,16,15,
+16       XBRN1WBRN1V16     Y     REGISTERED      15           14,0,1,2,3,4,5,6,
+  7,8,9,10,11,12,16,13,
+
+COMMAND EXECUTED
+
+
+VIRTUAL MEDIA GATEWAY COMMAND <JV_>
+< 
+
+
+MAIN LEVEL COMMAND <___>
+< JVI:MOD=4
+
+LOADING PROGRAM VERSION 11.16-2
+
+
+/* IDENTIFY VIRTUAL MGW:
+
+   PARAMETER NAMES
+
+   UINX ... ISU UNIT INDEX */
+
+JVI:MOD=4:;
+
+/*** SEMANTIC ERROR ***/ 
+/*** MISSING PARAMETER ***/ 
+
+
+
+/* IDENTIFY VIRTUAL MGW:
+
+   PARAMETER NAMES
+
+   UINX ... ISU UNIT INDEX */
+
+JVI:MOD=4
+
+
+/* IDENTIFY VIRTUAL MGW:
+
+   PARAMETER NAMES
+
+   UINX ... ISU UNIT INDEX */
+
+JVI:MOD=4:UINX
+
+/* SPECIFY ISU UNIT ID:               
+                                      
+   DECIMAL NUMBER 0 ... 17 (&,&&) */ 
+
+JVI:MOD=4:UINX=1
+/*** INTERRUPT ***/
+
+VIRTUAL MEDIA GATEWAY COMMAND <JV_>
+< ZOYI
+
+LOADING PROGRAM VERSION 8.26-0
+
+/* DATA UNITS:
+
+   ASSOCIATION SET IDENTIFICATION:
+   DISPLAYING TYPE;   */
+
+OYI:
+
+/* IDENTIFY NAME OR NUMBER(S) OF ASSOCIATION SET
+
+   NAME .... ASSOCIATION SET NAME
+   NBR  .... ASSOCIATION SET NUMBER(S)
+
+   DEFAULT IS ALL ASSOCIATION SETS */
+
+OYI:NAME
+
+/*  IDENTIFY ASSOCIATION SET NAME:
+
+    1 ... 16 CHARACTERS  */
+
+OYI:NAME=XBRN1
+
+/* IDENTIFY DISPLAYING TYPE:
+
+   A ... ASSOCIATION SET DATA
+   H ... ASSOCIATION SET HEADER DATA
+
+   DEFAULT H */
+
+OYI:NAME=XBRN1:
+
+/* IDENTIFY DISPLAYING TYPE:
+
+   A ... ASSOCIATION SET DATA
+   H ... ASSOCIATION SET HEADER DATA
+
+   DEFAULT H */
+
+OYI:NAME=XBRN1:A
+
+/* EXECUTION  DETERMINATION:
+   ; .. COMMAND EXECUTION
+   N .. NO EXECUTION        */
+
+OYI:NAME=XBRN1:A:;
+
+MGW       WBRN1                     2016-10-31  13:20:11
+
+INTERROGATING ASSOCIATION SET DATA
+
+ASSOCIATION SET NAME   ASSOC SET ID   SCTP USER   ROLE
+--------------------   ------------   ---------   --------
+XBRN1                             0   M3UA        CLIENT
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      0    ISU-14          1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.193                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.225                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.5/25                              
+        SECONDARY DEST. ADDRESS  . : 10.40.14.133/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      1    ISU-0           1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.194                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.226                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.6/25                              
+        SECONDARY DEST. ADDRESS  . : 10.40.14.134/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      2    ISU-1           1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.195                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.227                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.7/25                              
+        SECONDARY DEST. ADDRESS  . : 10.40.14.135/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      3    ISU-2           1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.196                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.228                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.8/25                              
+        SECONDARY DEST. ADDRESS  . : 10.40.14.136/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      4    ISU-3           1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.197                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.229                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.9/25                              
+        SECONDARY DEST. ADDRESS  . : 10.40.14.137/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      5    ISU-4           1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.198                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.230                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.10/25                             
+        SECONDARY DEST. ADDRESS  . : 10.40.14.138/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      6    ISU-5           1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.199                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.231                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.11/25                             
+        SECONDARY DEST. ADDRESS  . : 10.40.14.139/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+    ASSOC.         ASSOC ID  PARAMETER SET
+    IND    UNIT    IN UNIT   NAME             STATE
+    ---    ------- --------- ---------------- --------------------
+      7    ISU-6           1 SCTPSIGTRAN      ASP-ACTIVE          
+
+        SOURCE ADDRESS 1 . . . . . : 10.40.69.200                               
+        SOURCE ADDRESS 2 . . . . . : 10.40.69.232                               
+        SOURCE PORT  . . . . . . . : 2905
+        PRIMARY DEST. ADDRESS  . . : 10.40.14.20/25                             
+        SECONDARY DEST. ADDRESS  . : 10.40.14.148/25                            
+        DESTINATION PORT . . . . . : 2905
+        DATA STREAM COUNT  . . . . : 16
+
+SPECIFICATION VERSION  . . : 1.0 (RFC)       
+TRAFFIC MODE . . . . . . . : LOAD-SHARE      
+ASP MESSAGES . . . . . . . : YES 
+REGISTRATION REQUEST . . . : YES 
+SSNM MESSAGES BROADCAST  . :  NO 
+NETWORK APPEARANCE . . . . :   8
+ASP MESSAGES IN IPSP . . . :  NO 
+ROUTING CONTEXT  . . . . . : ---       
+FIRST DATA STREAM NUMBER . :   1 
+
+TACK ......................:   2 SECONDS 
+M3UA HB.INTERVAL...........:  15 SECONDS 
+
+COMMAND EXECUTED
+
+
+SCTP CONFIGURATION HANDLING COMMAND <OY_>
+< 
+/*** EXCESSIVE INPUT DELAY ***/
+
+END OF DIALOGUE SESSION
+
+Connection closed by foreign host.
+
+[Connection is closed by NE]
+Press Enter to continue.

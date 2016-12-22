@@ -1,0 +1,134 @@
+﻿[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ c7xtermx -n WBRN1
+?
+
+
+MGW       WBRN1                     2016-10-26  08:01:17
+
+       MAIN LEVEL             
+
+       ? ..... DISPLAY MENU             
+       A ..... ALARM SYSTEM ADMINISTRATION             
+       C ..... ROUTING STATE ADMINISTRATION             
+       D ..... SYSTEM SUPPORT AND COMMUNICATION             
+       I ..... I/O SYSTEM ADMINISTRATION             
+       J ..... IP TELEPHONY  ADMINISTRATION             
+       L ..... BROADBAND ADMINISTRATION             
+       N ..... SS7 NETWORK ADMINISTRATION             
+       O ..... SUPPLEMENTARY SS7 NETWORK ADMINISTRATION             
+       Q ..... O&M NETWORK ADMINISTRATION             
+       R ..... ROUTING ADMINISTRATION             
+       T ..... TRAFFIC ADMINISTRATION             
+       U ..... UNIT ADMINISTRATION             
+       W ..... SYSTEM CONFIGURATION ADMINISTRATION             
+       Y ..... SYSTEM SUPERVISION             
+       Z; .... END DIALOGUE/DESTINATION SELECTION (:)             
+
+
+MAIN LEVEL COMMAND <___>
+
+/*** EXCESSIVE INPUT DELAY ***/
+
+END OF DIALOGUE SESSION
+
+Connection closed by foreign host.
+
+[Connection is closed by NE]
+Press Enter to continue.
+
+[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ 
+[edyfuk@rc4cs2 ~]$ c7xtermx -n WBRN1
+?
+
+
+MGW       WBRN1                     2016-10-26  08:33:03
+
+       MAIN LEVEL             
+
+       ? ..... DISPLAY MENU             
+       A ..... ALARM SYSTEM ADMINISTRATION             
+       C ..... ROUTING STATE ADMINISTRATION             
+       D ..... SYSTEM SUPPORT AND COMMUNICATION             
+       I ..... I/O SYSTEM ADMINISTRATION             
+       J ..... IP TELEPHONY  ADMINISTRATION             
+       L ..... BROADBAND ADMINISTRATION             
+       N ..... SS7 NETWORK ADMINISTRATION             
+       O ..... SUPPLEMENTARY SS7 NETWORK ADMINISTRATION             
+       Q ..... O&M NETWORK ADMINISTRATION             
+       R ..... ROUTING ADMINISTRATION             
+       T ..... TRAFFIC ADMINISTRATION             
+       U ..... UNIT ADMINISTRATION             
+       W ..... SYSTEM CONFIGURATION ADMINISTRATION             
+       Y ..... SYSTEM SUPERVISION             
+       Z; .... END DIALOGUE/DESTINATION SELECTION (:)             
+
+
+MAIN LEVEL COMMAND <___>
+< ZAHP;
+
+
+LOADING PROGRAM VERSION 5.26-0
+
+MGW       WBRN1                     2016-10-26  08:33:24
+
+ALARM HISTORY
+
+
+HST (08223) WBRN1            1B003-00-1      COMM         2016-10-26 01:33:55.78
+    DISTUR  IWS1E-12 STER-3                                                     
+    1285    AAL5 FRAME LOST                                                 
+    POFFIC  OMU-1                                          
+    ISU 0d 0070 RT MXU 13d 21 22 206d 0d 
+
+HST (08224) WBRN1            1B003-00-1      COMM         2016-10-26 01:34:52.27
+    DISTUR  IWS1E-12 STER-3                                                     
+    1285    AAL5 FRAME LOST                                                 
+    POFFIC  OMU-1                                          
+    ISU 0d 0070 RT MXU 13d 61 64 207d 0d 
+
+HST (08225) WBRN1            1A002-00-16     EQUIPM       2016-10-26 03:01:01.73
+    NOTICE  OMU-1                                                               
+    0027    SOFTWARE PACKAGE FALLBACK COPYING NOTICE                        
+    SW5ADM  OMU-1                          NMS             
+    STARTED 
+
+HST (08226) WBRN1            1A002-00-16     EQUIPM       2016-10-26 03:01:01.74
+    NOTICE  OMU-1                                                               
+    0033    FILE UPDATES TO DISK PREVENTED                                  
+    FEDSER  OMU-1                                          
+
+HST (08227) WBRN1            1A002-00-16     EQUIPM       2016-10-26 03:04:24.97
+    NOTICE  OMU-1                                                               
+    0036    FILE UPDATES TO DISK RESUMED                                    
+    FEDSER  OMU-1                                          
+
+HST (08228) WBRN1            1A002-00-16     EQUIPM       2016-10-26 03:05:27.55
+    NOTICE  OMU-1                                                               
+    0027    SOFTWARE PACKAGE FALLBACK COPYING NOTICE                        
+    SW5ADM  OMU-1                          NMS             
+    READY 
+
+HST (08229) WBRN1            1B003-00-1      COMM         2016-10-26 06:45:42.94
+    DISTUR  IWS1E-12 STER-3                                                     
+    1285    AAL5 FRAME LOST                                                 
+    POFFIC  OMU-1                                          
+    ISU 0d 0070 RT MXU 13d 54 55 208d 0d 
+
+HST (08230) WBRN1            1C002-00-1      COMM         2016-10-26 07:39:21.01
+    DISTUR  IWS1E-21 STER-13                                                    
+    1285    AAL5 FRAME LOST                                                 
+    POFFIC  OMU-1                                          
+    ISU 16d 00B0 RT MXU 19d 01 03 204d 0d 
+
+NUMBER OF ALARM EVENTS DISPLAYED:
+
+     DISTUR  = 4     
+     NOTICE  = 4     
+
+TOTAL:  SET  = 8     ;  CANCELED = 0     
+
+COMMAND EXECUTED
+
+
+ALARM HISTORY HANDLING COMMAND <AH_>
